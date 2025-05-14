@@ -2,7 +2,7 @@ def sort(width, height, length, mass):
     # Calculate the volume of the box
     volume = width * height * length
     # Check if package is bulky
-    is_bulky = (volume > 1000000) or (width >= 150 or height >= 150 or length >= 150)
+    is_bulky = (volume >= 1000000) or (width >= 150 or height >= 150 or length >= 150)
     # Check if package is heavy
     is_heavy = mass >= 20
 
@@ -13,7 +13,7 @@ def sort(width, height, length, mass):
 
 # Test cases
 def test():
-    assert sort(100, 100, 100, 10) == "STANDARD"
+    assert sort(100, 100, 100, 10) == "SPECIAL"
     assert sort(200, 200, 200, 10) == "SPECIAL"
     assert sort(200, 200, 200, 30) == "REJECTED"
     assert sort(150, 150, 150, 10) == "SPECIAL"
