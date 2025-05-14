@@ -31,6 +31,7 @@ $: from solution import sort
 
 # Testing
 - Run the included test cases: $: python solution.py
+- Alternatively visit this link: https://replit.com/@sebastiantofra/PythonScriptHub
 
 # Or test manually:
 
