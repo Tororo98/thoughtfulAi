@@ -31,13 +31,13 @@ print(sort(100, 150, 100, 15)) # SPECIAL (bulky)
 print(sort(50, 50, 50, 25))    # SPECIAL (heavy)
 print(sort(200, 200, 200, 25)) # REJECTED
 Installation
-No dependencies required. Simply copy the package_sorter.py file into your project.
+No dependencies required. Simply copy the solution.py file into your project.
 
 Testing
 Run the included test cases:
 
 python
-python test_package_sorter.py
+python solution.py
 Or test manually:
 
 python
@@ -45,9 +45,9 @@ print(sort(50, 50, 50, 19))    # Expected: STANDARD
 print(sort(50, 50, 50, 20))    # Expected: SPECIAL
 print(sort(150, 50, 50, 10))   # Expected: SPECIAL
 print(sort(150, 150, 150, 25)) # Expected: REJECTED
+
 Edge Cases
 The function handles:
-
 All dimensions exactly at threshold values
 
 Mass exactly at 20kg threshold
