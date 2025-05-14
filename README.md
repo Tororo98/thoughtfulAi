@@ -35,10 +35,10 @@ $: from solution import sort
 # Or test manually:
 
 $: python
-print(sort(50, 50, 50, 19))    # Expected: STANDARD
-print(sort(50, 50, 50, 20))    # Expected: SPECIAL
-print(sort(150, 50, 50, 10))   # Expected: SPECIAL
-print(sort(150, 150, 150, 25)) # Expected: REJECTED
+- print(sort(50, 50, 50, 19))    # Expected: STANDARD
+- print(sort(50, 50, 50, 20))    # Expected: SPECIAL
+- print(sort(150, 50, 50, 10))   # Expected: SPECIAL
+- print(sort(150, 150, 150, 25)) # Expected: REJECTED
 
 # Edge Cases
 - The function handles:
